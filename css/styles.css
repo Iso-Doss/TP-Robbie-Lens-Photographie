@@ -1,0 +1,181 @@
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat', sans-serif;
+}
+
+a, p, li, label, input::placeholder, textarea::placeholder {
+    font-family: 'Manrope', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADER */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 10px auto;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style-type: none;
+}
+
+.lien-du-menu {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.lien-du-menu:hover {
+    text-decoration: underline;
+}
+
+/* MAIN */
+
+/* SECTION 1 : A PROPOS DE Robbie Lens */
+
+.a-propos-de-moi{
+    background-color: #1f2039;
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 120px;
+}
+
+.a-propos-de-moi h1 {
+    color: #a5b4fc;
+    font-size: 3em;
+    font-weight: normal;
+    margin-bottom: 40px;
+}
+
+.a-propos-de-moi div{
+    width: 46%;
+}
+
+.a-propos-de-moi p {
+    color: white;
+    font-size: 1.1em;
+    margin-bottom: 50px;
+}
+
+.a-propos-de-moi a {
+    color: white;
+    font-size: 1em;
+    text-decoration: none;
+    background: linear-gradient(#8e86b5, #acaeed);
+    border-radius: 30px;
+    padding: 10px 20px;
+}
+
+.a-propos-de-moi span {
+    color: #a5b4fc;
+}
+
+.a-propos-de-moi img{
+    width: 100%;
+}
+
+/* SECTION 2 : MON DERNIER PROJET */
+
+.dernier-projet{
+    padding: 30px 120px;
+}
+
+.dernier-projet h2{
+    text-align: center;
+    font-weight: normal;
+    margin-bottom: 50px;
+    font-size: 1.3em;
+}
+
+.dernier-projet div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.dernier-projet img{
+    margin-bottom: 20px;
+}
+
+/* SECTION 3 : FORMULAIRE DE CONTACT */
+
+.contactez-moi{
+    background-color: #1f2039;
+    padding: 70px 120px;
+    color: white;
+}
+
+.contactez-moi h2{
+    text-align: center;
+    font-weight: normal;
+    margin-bottom: 15px;
+}
+
+.contactez-moi form{
+    width: 100%;
+}
+
+.contactez-moi .nom-prenoms {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.contactez-moi div{
+    margin-bottom: 15px;
+}
+
+.contactez-moi .nom-prenoms div{
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+}
+
+.contactez-moi form label{
+    font-size: 1.2em;
+}
+
+.contactez-moi form input{
+    height: 35px;
+}
+
+.contactez-moi form input, .contactez-moi form textarea{
+    width: 100%;
+}
+
+.contactez-moi form input::placeholder, .contactez-moi form textarea::placeholder{
+    font-size: 1.5em;
+    color: black;
+}
+
+
+.contactez-moi form textarea{
+    height: 150px;
+}
+
+
+
+
+/* FOOTER */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 10px auto;
+}
+
+footer a {
+    text-decoration: none;
+}
